@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <OutDir>Dist</OutDir>
+    <OutputPath>Dist</OutputPath>
+    <PackageOutputPath>Dist</PackageOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerShell.SDK"  VersionOverride="7.3.3" />
+    <PackageReference Include="System.Management.Automation" VersionOverride="7.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="*$(TargetFramework)'*.*" />
+    <PackageFile Include="./**/*.dllc" PackagePath="%(Filename)%(Extension)" />
+    <Content Include="./Dgmjr.PowerShell.Attributes.psm1" PackagePath="%(Filename)%(Extension)" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always" />
+    <Content Include="./Dgmjr.PowerShell.Attributes.psd1" PackagePath="%(Filename)%(Extension)" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always" />
+  </ItemGroup>
+</Project>

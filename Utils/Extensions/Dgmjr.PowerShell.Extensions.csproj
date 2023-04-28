@@ -1,0 +1,21 @@
+<!--
+ * Dgmjr.PowerShell.Extensions.csproj
+ * 
+ *   Created: 2023-03-07-02:30:15
+ *   Modified: 2023-03-07-02:30:15
+ * 
+ *   Author: David G. Moore, Jr. <david@dgmjr.io>
+ *   
+ *   Copyright © 2022-2023 David G. Moore, Jr., All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerShell.SDK" />
+    <PackageReference Include="PowerShellStandard.Library" />
+  </ItemGroup>
+</Project>

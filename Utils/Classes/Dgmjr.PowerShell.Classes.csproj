@@ -1,0 +1,27 @@
+<!--
+ * Dgmjr.PowerShell.csproj
+ * 
+ *   Created: 2023-01-29-06:13:55
+ *   Modified: 2023-01-29-06:13:55
+ * 
+ *   Author: David G. Moore, Jr. <david@dgmjr.io>
+ *   
+ *   Copyright © 2022-2023 David G. Moore, Jr., All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>David G. Moore, Jr.</Authors>
+    <Company>David G. Moore, Jr.</Company>
+    <Description>A collection of classes and structs for creating binary PowerShell modules</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <EnablePreviewFeatures>true</EnablePreviewFeatures>
+  </PropertyGroup>
+  <ItemGroup>
+      <PackageReference Include="PowerShellStandard.Library" PrivateAssets="All" />
+  </ItemGroup>
+</Project>

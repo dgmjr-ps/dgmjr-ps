@@ -1,0 +1,15 @@
+<!--
+ * Directory.Build.props
+ * 
+ *   Created: 2023-03-30-02:21:24
+ *   Modified: 2023-03-30-02:21:24
+ * 
+ *   Author: David G. Moore, Jr. <david@dgmjr.io>
+ *   
+ *   Copyright © 2022 - 2023 David G. Moore, Jr., All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+-->
+
+<Project>
+  <Import Project="Sdk.targets" Sdk="DgmjrSdk" />
+</Project>

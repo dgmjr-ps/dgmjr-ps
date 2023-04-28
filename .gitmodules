@@ -1,0 +1,6 @@
+[submodule "Invoke-Build"]
+	path = Invoke-Build
+	url = https://hithub.com/Dgmjr/Invoke-Build.git
+[submodule "FFMpeg-RoughDraft"]
+	path = FFMpeg-RoughDraft
+	url = https://github.com/Dgmjr/FFMpeg-RoughDraft.git

@@ -1,0 +1,3 @@
+task Test {
+    'Hello, world!'
+}
