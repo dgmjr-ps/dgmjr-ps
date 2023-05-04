@@ -46,6 +46,6 @@
     <Exec Command="rm -rf $(MSBuildThisFileDirectory)dist 2>null" />
   </Target>
   <Target Name="Install" DependsOnTargets="Pack">
-    <Exec ExecuteTool=">pwsh" Command="Install-moddule @PSScriptRoot/dist/Invoke-DotNetCli.$(PackageVersion).nupkg" />
+    <Exec ExecuteTool=">pwsh" Command="Install-module @PSScriptRoot/dist/Invoke-DotNetCli.$(PackageVersion).nupkg" />
   </Target>
 </Project>
