@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.Build.NoTargets">
+    <PropertyGroup>
+        <IsLinux>$([RuntimeInformation]::IsOSPlatform(([OSPlatform]::Linux)))</IsLinux>
+        <IsFreeBSD>$([RuntimeInformation]::IsOSPlatform(([OSPlatform]::FreeBSD)))</IsFreeBSD>
+        <IsOSX>$([RuntimeInformation]::IsOSPlatform(([OSPlatform]::OSX)))</IsOSX>
+        <IsWindows>$([RuntimeInformation]::IsOSPlatform(([OSPlatform]::OSX)))</IsWindows>
+    </PropertyGroup>
+</Project>
