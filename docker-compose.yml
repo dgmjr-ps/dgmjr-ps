@@ -1,0 +1,5 @@
+services:
+  windows:
+    image: mcr.microsoft.com/windows:ltsc201
+    command: powershell
+    container_name: windows

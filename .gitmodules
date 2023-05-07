@@ -4,3 +4,18 @@
 [submodule "FFMpeg-RoughDraft"]
 	path = FFMpeg-RoughDraft
 	url = https://github.com/Dgmjr/FFMpeg-RoughDraft.git
+[submodule "Invoke-DotNetCli"]
+	path = Invoke-DotNetCli
+	url = https://github.com/dgmjr-ps/Invoke-DotNetCli.git
+[submodule "ffmpeg-utils"]
+	path = ffmpeg-utils
+	url = https://github.com/dgmjr-ps/ffmpeg-utils.git
+[submodule "Generate-Documentation"]
+	path = Generate-Documentation
+	url = https://github.com/dgmjr-ps/Generate-Documentation.git
+[submodule "PSProj"]
+	path = PSProj
+	url = https://github.com/dgmjr-ps/PSProj.git
+[submodule "Utils"]
+	path = Utils
+	url = https://github.com/dgmjr-ps/Utils.git
